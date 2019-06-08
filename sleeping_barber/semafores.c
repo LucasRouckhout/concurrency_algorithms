@@ -19,6 +19,7 @@ void barber() {
         up(&barber_sem);        // unblock a customer thread
         up(&mutex);             // release the mutex
     }
+
 }
 
 void customer() {
